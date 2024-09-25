@@ -1,3 +1,3 @@
 # LeetCode-problems-solutions
  
-Here you will find solutions for some of the problems on LeetCode. :)
+Here you will find my solutions for some of the problems on LeetCode. :)
