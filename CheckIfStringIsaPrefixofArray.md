@@ -3,7 +3,7 @@ https://leetcode.com/problems/check-if-string-is-a-prefix-of-array/description/
 
 
 PYTHON SOLUTION:
-
+```
 class Solution:
     def isPrefixString(self, s: str, words: List[str]) -> bool:
         
@@ -19,10 +19,11 @@ class Solution:
         if s == a:
             return True
         return False
-
+```
 
 C++ SOLUTION:
 
+```
 
 class Solution {
 public:
@@ -39,3 +40,4 @@ public:
         return false;
     }
 };
+```
