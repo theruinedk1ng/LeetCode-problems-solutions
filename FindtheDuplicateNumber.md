@@ -41,7 +41,7 @@ class Solution:
         slow = nums[0]
         fast = nums[0]
 
-        while fast:
+        while True:
 
             slow = nums[slow]
             fast = nums[nums[fast]]
