@@ -1,7 +1,7 @@
 268. Missing Number
 https://leetcode.com/problems/missing-number/description/?envType=problem-list-v2&envId=binary-search&difficulty=EASY
 
-PYTHON SOLUTION:
+PYTHON SOLUTION #1:
 
 ```
 class Solution:
@@ -32,5 +32,17 @@ class Solution:
         
         return rez
 
+
+```
+
+PYTHON SOLUTION #2:
+
+```
+class Solution:
+    def missingNumber(self, nums: List[int]) -> int:
+
+        s1 = len(nums)*(len(nums)+1)//2
+        s2 = sum(nums)
+        return s1 - s2
 
 ```
